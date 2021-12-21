@@ -10,7 +10,7 @@ const MongoClient = mongo.MongoClient;
 const cors = require("cors");
 //const mongourl = "mongodb://localhost:27017"
 const mongourl =
-  "mongodb+srv://efood:efoodpw@cluster0.ulfbg.mongodb.net/Zomato?retryWrites=true&w=majorit";
+  "mongodb+srv://efood:efoodpw@cluster0.ulfbg.mongodb.net/Zomato?retryWrites=true&w=majority";
 
 let db;
 
